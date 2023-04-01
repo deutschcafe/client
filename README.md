@@ -1,1 +1,1 @@
-# client
+# Deutsch Cafe frontend
