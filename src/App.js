@@ -1,10 +1,9 @@
 
+import Splash from "./pages/Splash";
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <Splash/>
   );
 }
 
