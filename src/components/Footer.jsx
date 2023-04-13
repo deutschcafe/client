@@ -1,15 +1,14 @@
-import React from 'react';
+import React from "react";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 
 import logo from "../assets/logo.png";
-import { Avatar } from '@mui/material';
+import { Avatar } from "@mui/material";
 
 const Footer = () => {
   return (
-    <Box sx={{display:'flex', justifyContent:'space-between'}}>
+    <Box sx={{ display: "flex", justifyContent: "space-between" }}>
       <Box>
         <Box
           sx={{
@@ -25,13 +24,11 @@ const Footer = () => {
           <Typography>Deutsch Cafe</Typography>
         </Box>
         <Typography>Ready to ger started?</Typography>
-        <Box>
-
-        </Box>
+        <Box></Box>
       </Box>
       <Box></Box>
     </Box>
   );
-}
+};
 
-export default Footer
+export default Footer;
